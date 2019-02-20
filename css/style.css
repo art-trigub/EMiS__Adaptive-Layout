@@ -3,6 +3,11 @@
 	src: url('../font/OpenSans-Bold.ttf');
 }
 
+@font-face {
+	font-family: SourceSans;
+	src: url('../font/SourceSansPro-Light.ttf');
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -70,12 +75,13 @@
 
 .advantages-description{
 	color: #A0A0A0;
-	font-size: 11px;
+	font-size: 12px;
 	text-align: center;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
 	font-weight: 100;
+	font-family: SourceSans;
 }
 
 .gallery-title{
@@ -89,7 +95,8 @@
 	text-align: center;
 	color: #A0A0A0;
 	margin-top: 10px;
-	font-size: 14px;
+	font-size: 16px;
+	font-family: SourceSans;
 }
 
 .gallery-line-container{
@@ -128,6 +135,7 @@
 	width: 589px;
 	margin: auto;
 	margin-top: 50px;
+	font-family: SourceSans;
 }
 
 .gallery-tabs-title{
@@ -176,7 +184,8 @@
 	text-align: center;
 	color: #A0A0A0;
 	margin-top: 10px;
-	font-size: 14px;
+	font-size: 15px;
+	font-family: SourceSans;
 }
 
 .additional-block__line-container{
@@ -297,9 +306,10 @@
 
 .slider-block__description{
 	text-align: center;
-	font-size: 13px;
+	font-size: 15px;
 	margin-top: 20px;
 	color: #A0A0A0;
+	font-family: SourceSans;
 }
 
 .slider-block__button{
@@ -445,10 +455,11 @@
 }
 .footer__container-description{
 	margin-top: 5px;
-	font-size: 12px;
+	font-size: 13px;
 	color: white;
 	width: 120px;
 	text-align: center;
+	font-family: SourceSans;
 }
 
 @media screen and (max-width: 1150px) {
@@ -558,6 +569,7 @@
 	margin-top: 5px;
 	font-size: 9px;
 	margin-left: -30px;
+
 }
 }
 
