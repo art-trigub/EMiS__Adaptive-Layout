@@ -10,7 +10,7 @@
 }
 
 #advantages-block{
-	width: 68%;
+	width: 82%;
 	max-width: 900px;
 	margin: 0 auto;
 	margin-top: 95px;
@@ -125,7 +125,7 @@
 }
 
 .gallery-tabs{
-	width: 579px;
+	width: 589px;
 	margin: auto;
 	margin-top: 50px;
 }
@@ -571,7 +571,6 @@
 	width: 95%;
 	max-width: 400px;
 	padding-left: 27%;
-
 }
 .gallery-tabs{
 	width: 289px;
@@ -592,7 +591,7 @@
 .additional-block__slider{
 	margin-top: 140px;
 	width: 300px;
-	height: 320px;
+	height: 340px;
 	margin-left: 0px;
 	position: relative;
 }
@@ -630,7 +629,7 @@
 }
 
 .slider-block__line{
-	margin-left: 140px;
+	margin-left: 138px;
 	width: 33px;
 }
 
@@ -679,3 +678,14 @@
 }
 
 }
+
+@media screen and (max-width: 450px) {
+#advantages-block{
+	width: 95%;
+	max-width: 400px;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+}
+
